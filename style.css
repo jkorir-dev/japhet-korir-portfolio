@@ -50,6 +50,10 @@ header {
   font-weight: bold;
   color: var(--primary-color);
 }
+  .navbar .logo:hover {
+  text-shadow: 0 0 10px rgba(0, 118, 223, 0.5);
+  cursor: default;
+}
 
 .navbar ul {
   display: flex;
