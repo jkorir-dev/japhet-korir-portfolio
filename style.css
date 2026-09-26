@@ -154,3 +154,11 @@ footer {
   color: var(--text-muted);
   font-size: 0.9rem;
 }
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
