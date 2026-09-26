@@ -12,7 +12,13 @@ const projects = [
     title: "JavaScript Fundamentals Suite",
     description: "An isolated modular processing script handling logic calculations including tax, casing transformations, and value optimization.",
     tech: "JavaScript, Node.js, Jest Testing Framework"
-  }
+  },
+  {
+    title: "JavaScript Fundamentals Suite",
+    description: "A functional programming utility suite built to execute mathematical operations, tax computations, and casing conversions against validation tests.",
+    tech: "JavaScript, Node.js, Jest Test Framework"
+  },
+
 ];
 
 const skillsList = document.getElementById("skills-list");
