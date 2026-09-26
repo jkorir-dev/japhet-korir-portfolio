@@ -7,6 +7,10 @@
   --primary-color: #0076df;
   --border-color: #333333;
 }
+  html {
+  scroll-behavior: smooth;
+}
+
 
 * {
   margin: 0;
@@ -92,7 +96,6 @@ section h2 {
   font-weight: 500;
 }
 
-/* Projects Flex Grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
