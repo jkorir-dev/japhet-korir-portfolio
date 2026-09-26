@@ -1,5 +1,6 @@
 
-const skills = ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Responsive Design"];
+const skills = ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Responsive Design", "Command Line / Bash"];
+
 
 const projects = [
   {
