@@ -68,6 +68,11 @@ header {
   transition: color 0.3s;
 }
 
+.navbar a:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 4px;
+}
+
 .navbar a:hover {
   color: var(--primary-color);
 }
@@ -180,4 +185,13 @@ footer {
   color: var(--text-muted);
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
+}
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--text-color);
+}
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: #fff;
 }
