@@ -169,3 +169,10 @@ footer {
   margin-bottom: 1.5rem;
   object-fit: cover;
 }
+#skills-list li {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+#skills-list li:hover {
+  transform: scale(1.05);
+  border-color: var(--primary-color);
+}
