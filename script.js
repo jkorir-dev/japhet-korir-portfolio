@@ -5,7 +5,7 @@ const skills = ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Responsive Design
 const projects = [
   {
     title: "Fire Island Travel Blog",
-    description: "A multi-section responsive travel website presenting structured text layouts, semantic blocks, and local resource image management.",
+    description: "A beautifully designed, semantic single-page website demonstrating advanced CSS styling variables, grid alignment grids, and fully responsive layouts.",
     tech: "HTML5, CSS3, CSS Variables"
   },
   {
