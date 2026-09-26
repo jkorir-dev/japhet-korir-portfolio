@@ -176,3 +176,8 @@ footer {
   transform: scale(1.05);
   border-color: var(--primary-color);
 }
+.section-subtitle {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
