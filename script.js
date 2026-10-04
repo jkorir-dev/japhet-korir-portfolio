@@ -1,4 +1,4 @@
-// 1. Array containing your technical skills
+
 const skills = [
   "HTML", 
   "CSS", 
@@ -9,7 +9,6 @@ const skills = [
   "Command Line / Bash"
 ];
 
-// 2. Array of objects containing three completely unique project data blocks
 const projects = [
   {
     title: "Fire Island Travel Blog",
@@ -28,7 +27,6 @@ const projects = [
   }
 ];
 
-// 3. Loop through skills array and insert elements dynamically into the DOM
 const skillsList = document.getElementById("skills-list");
 if (skillsList) {
   skills.forEach(skill => {
@@ -38,7 +36,6 @@ if (skillsList) {
   });
 }
 
-// 4. Loop through projects array to dynamically construct cards into the container layout grid
 const projectsContainer = document.getElementById("projects-container");
 if (projectsContainer) {
   projects.forEach(project => {
