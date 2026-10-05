@@ -47,7 +47,18 @@ if (projectsContainer) {
       <p>${project.description}</p>
       <p class="tech-stack"><strong>Technologies Used:</strong> ${project.tech}</p>
     `;
+const testimonialsContainer = document.getElementById("testimonials-container");
 
+professionalTestimonials.forEach(item => {
+  const card = document.createElement("div");
+  card.className = "testimonial-card";
+  
+  card.innerHTML = `
+    <p class="quote">"${item.quote}"</p>
+    <div class="author-info">
+      <h4>${item.name}</h4>
+      <p class="role">${item.role}</p>
+    </div>
     projectsContainer.appendChild(projectCard);
   });
 }
